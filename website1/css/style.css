@@ -49,7 +49,7 @@ p {
 	font-weight: 400;
 }
 a {
-	color:#7EC13F;
+	color:var(--rojo_soi);
 	background:none;
 	text-decoration: none;
 	outline: none;
@@ -299,8 +299,8 @@ section {
 
 .btn-white:hover, .btn-white:focus {
 	color: #FFF;
-	background: #7EC13F;
-	border-color:#7EC13F;
+	background: var(--rojo_soi);
+	border-color:var(--rojo_soi);
 }
 
 
@@ -311,8 +311,8 @@ section {
 }
 
 .btn-green {
-	background:#7EC13F;
-	border-color: #7EC13F;
+	background:var(--rojo_soi);
+	border-color: var(--rojo_soi);
 	color:#FFF;
 }
 
@@ -330,8 +330,8 @@ section {
 
 .btn-gray-border:hover, .btn-gray-border:focus {
 	color: #FFF;
-	background:#7EC13F;
-	border-color:#7EC13F;
+	background:var(--rojo_soi);
+	border-color:var(--rojo_soi);
 }
 
 /*-----------------------------------------------------------------*/
@@ -1080,8 +1080,8 @@ html[xmlns] .slides {
 }
 
 .content-tab-1 > .nav > li.active {
-    border: 2px solid #7EC13F;
-    background: #7EC13F;
+    border: 2px solid var(--rojo_soi);
+    background: var(--rojo_soi);
 }
 
 .tab-content-main {
@@ -1101,7 +1101,7 @@ html[xmlns] .slides {
 	position: absolute;
 	width: 40px;
 	height: 40px;
-	background: #7EC13F ;
+	background: var(--rojo_soi) ;
 	color: #FFF;
 	text-align: center;
 	line-height: 35px;
@@ -1116,8 +1116,8 @@ html[xmlns] .slides {
 }
 
 .tab1-features:hover .icon {
-	border-color:#7EC13F;
-	color:#7EC13F;
+	border-color:var(--rojo_soi);
+	color:var(--rojo_soi);
 	background:transparent;
 }
 
@@ -1140,7 +1140,7 @@ html[xmlns] .slides {
 	font-size:20px;
 	border-radius:0;
 	opacity:1;
-	background:#7EC13F;
+	background:var(--rojo_soi);
 	position: absolute;
 	margin: 0;
 }
@@ -1202,10 +1202,10 @@ html[xmlns] .slides {
 	height: 55px;
 	line-height: 55px;
 	text-align: center;
-	color: #7EC13F;
+	color: var(--rojo_soi);
 	font-size: 22px;
 	font-weight: 600;
-	border: 1px solid #7EC13F;
+	border: 1px solid var(--rojo_soi);
 	position: relative;
 	border-radius: 28px;
 	transition: all 0.7s ease-in-out 0s;
@@ -1213,8 +1213,8 @@ html[xmlns] .slides {
 
 .features-tab3 .features-left .features-item:hover .features-icon, .features-tab3 .features-right .features-item:hover .features-icon {
 	color:#FFF;
-	border-color:#7EC13F;
-	background:#7EC13F;
+	border-color:var(--rojo_soi);
+	background:var(--rojo_soi);
 }
 
 .features-tab3 .features-left .features-icon {
@@ -1244,10 +1244,10 @@ html[xmlns] .slides {
 	text-align: center;
 	font-size: 47px;
 	display: inline-block;
-	color: #7EC13F;
+	color: var(--rojo_soi);
 	width: 100px;
 	height: 100px;
-	border: 1px solid #7EC13F;
+	border: 1px solid var(--rojo_soi);
 	line-height: 100px;
 	border-radius: 50%;
 	margin-bottom: 20px;
@@ -1267,9 +1267,9 @@ html[xmlns] .slides {
 }
 
 .tab4-services-box:hover .icon {
-	background:#7EC13F;
+	background:var(--rojo_soi);
 	color:#FFF;
-	border-color:#7EC13F;
+	border-color:var(--rojo_soi);
 }
 
 .core-features .list {
@@ -1492,8 +1492,8 @@ ul.timeline {
 
 .filter.active, .filter:hover {
 	color:#FFF;
-	background:#7EC13F;
-	border-color:#7EC13F;
+	background:var(--rojo_soi);
+	border-color:var(--rojo_soi);
 }
 
 .work-main {
@@ -1694,8 +1694,8 @@ ul.timeline {
 }
 
 .socials ul li a:hover {
-	background:#7EC13F;
-	border-color:#7EC13F;
+	background:var(--rojo_soi);
+	border-color:var(--rojo_soi);
 	color:#FFF;
 }
 
@@ -1810,7 +1810,7 @@ ul.timeline {
 	border-radius: 50%;
 	display: inline-block;
 	margin: 0px auto;
-	background: #7EC13F none repeat scroll 0% 0%;
+	background: var(--rojo_soi) none repeat scroll 0% 0%;
 }
 
 .services-box .services-desc {
@@ -1852,7 +1852,7 @@ ul.timeline {
 }
 
 .tabs .nav-tabs li.active a {
-	border-top: 2px solid #7EC13F;
+	border-top: 2px solid var(--rojo_soi);
 	background: #FFF;
 	color: #272727;
 	font-weight: 700;
@@ -1974,7 +1974,7 @@ ul.timeline {
 .video-caption:hover .video-icon{
 	background:#FFF;
 	border-color:#FFF;
-	color:#7EC13F;
+	color:var(--rojo_soi);
 }
 
 .video-caption .video-caption-info {
@@ -2095,8 +2095,8 @@ ul.timeline {
 }
 
 #testimonials .owl-controls .owl-page.active span {
-	background:#7EC13F;
-	border-color:#7EC13F;
+	background:var(--rojo_soi);
+	border-color:var(--rojo_soi);
 }
 
 /*-----------------------------------------------------------------*/
@@ -2306,7 +2306,7 @@ ul.timeline {
 }
 
 .breadcrumb ul li.current a:hover {
-	color: #7EC13F;
+	color: var(--rojo_soi);
 }
 
 .work-detail .btn {
@@ -2488,7 +2488,7 @@ blockquote {
 	text-align: justify;
 	color: #929292;
 	letter-spacing: 0.1px;
-	border-left: 5px solid #7EC13F;
+	border-left: 5px solid var(--rojo_soi);
 }
 
 blockquote a {
@@ -2874,6 +2874,9 @@ footer {
 .social-icons ul li a:hover {
 	color:#FFF;
 }
+
+
+
 
  @media (min-width: 992px) and (max-width: 1024px) {
 	 

@@ -335,7 +335,7 @@ jQuery(document).on('appear', '.pie-chart', function () {
 		},
 
 		trackColor: '#FFF',
-		barColor: '#25d6eb',
+		barColor: '#EA263C',
 		scaleColor: '',
 		lineWidth: 10,
 		lineCap: 'circle',
@@ -364,4 +364,6 @@ $('.scrollup').click(function () {
 	$("html, body").animate({ scrollTop: 0 }, 2000);
 	return false;
 });
+
+
 
