@@ -1933,6 +1933,7 @@ ul.timeline {
 	background:url(../images/parallax/cta.jpg) no-repeat;
 }
 
+
 .video-caption-main {
 	margin-bottom:30px;
 }
@@ -1989,6 +1990,14 @@ ul.timeline {
 	width:100%;
 	height:350px;
 }
+
+
+
+.contacto p{
+	font-weight: bold;
+}
+
+
 
 /*-----------------------------------------------------------------*/
 /* Blog
@@ -2831,9 +2840,13 @@ footer {
 }
 
 .copyright p{
-	color:#CCC;
+	font-size: xx-small;
+	color:#383636;
 }
 
+.copyright a{
+	color: #383636;
+}
 .social-icons {
 	width: 100%;
 	display: block;
