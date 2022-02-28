@@ -289,13 +289,13 @@ $('.popup-image').magnificPopup({
 
 
 $('.clients-carousel').owlCarousel({
-	autoPlay: 1500,
+	autoPlay: 2000,
 	slideSpeed: 100,
 	items: 6,
 	itemsDesktop: [1199, 4],
 	itemsDesktopSmall: [979, 3],
-	stopOnHover: true,
-	pagination: false,
+	stopOnHover: false,
+	pagination: true,
 });
 
 
