@@ -1791,6 +1791,19 @@ ul.timeline {
 /* Services
 /*-----------------------------------------------------------------*/
 
+.services-box .svg-icon{
+	width: 80px;
+	height: 80px;
+	color: #FFF;
+	font-size: 38px;
+	line-height: 80px;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 0px auto;
+	background: var(--rojo_soi) none repeat scroll 0% 0%;
+
+}
+
 #services {
 	padding-bottom:50px;
 	background:#FFF;
@@ -1815,6 +1828,7 @@ ul.timeline {
 	background: var(--rojo_soi) none repeat scroll 0% 0%;
 }
 
+
 .services-box .services-desc {
 	margin-top: 25px;
 }
@@ -1822,6 +1836,9 @@ ul.timeline {
 .services-box .services-desc h4 {
 	margin: 31px 0px 20px;
 }
+
+
+
 
 
 /*-----------------------------------------------------------------*/
@@ -1917,6 +1934,7 @@ ul.timeline {
 	font-family:'FontAwesome';
 	content:"\f068";
 	float: right;
+	
 	color: #393535;
 	font-size: 12px;
 }
@@ -3007,3 +3025,5 @@ footer {
 .socials{
 	display: none;
 }
+
+
