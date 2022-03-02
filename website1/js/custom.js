@@ -160,7 +160,7 @@ $(window).bind('load', function () {
 });
 
 function parallaxInit() {
-	$('#history').parallax("50%", 0.2);
+	$('#history').parallax("10%", 0.2);
 	$('#facts').parallax("50%", 0.2);
 	$('#cta').parallax("50%", 0.2);
 	$('#skills').parallax("50%", 0.2);
@@ -215,7 +215,7 @@ $(".testimonials-carousel").owlCarousel({
 
 $(".team-carousel").owlCarousel({
 
-	items: 3,
+	items: 4,
 	pagination: true,
 	navigation: false,
 	navigationText: [
