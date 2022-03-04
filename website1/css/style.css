@@ -1760,30 +1760,39 @@ ul.timeline {
 
 .pie-chart {
 	position: relative;
-	display: inline-block;
+	display: inline-flex;
+	align-items: center;
 	width: 150px;
 	height: 120px;
-	margin-top:70px;
+	align-items: center;
+	margin: auto;
+	text-align: center;
 }
 
 .pie-chart canvas {
 	text-align: center;
 	margin: auto;
 	position: absolute;
-	top: -60px;
-	left: 0;
 	width: 150px;
-	height: 150px;
+	height: 120px;
 	color:#FFF;
 }
 
-.percent {
-	display: inline-block;
+.pie-chart{
+	display:flexbox;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.percent{
+
 	z-index: 2;
 	font-weight: 800;
 	font-size: 40px;
 	line-height: 46px;
 	color:#FFF;
+	text-align: center;
 }
 
 .percent:after {
@@ -2915,8 +2924,7 @@ footer {
 }
 
 .maps{
-	width: 44vw;
-}
+	width: 39vw;}
 
 .social-icons ul li a:hover {
 	color:#FFF;
@@ -2941,9 +2949,9 @@ footer {
 	}
 
 	.maps{
-		margin: auto;
-		margin-right: 5vw ;
-		width: 100%;
+	width: 80vw;
+	margin: auto;
+	left: 0;
 	}
 
 }
@@ -2957,13 +2965,11 @@ footer {
 		width: 50vw;
 	}
 
-
 	.maps{
-		margin: auto;
-		margin-right: 5vw;
-		width: 100%;
+		width: 80vw;
+		margin-left: 10vw;
 	}
-
+	
 }
 
 @media (max-width: 550px) {
@@ -2995,8 +3001,7 @@ footer {
 
 	.maps{
 		margin: auto;
-		margin-right: 5vw ;
-		width: 100%;
+		max-width: 70vw;
 	}
 
 	#main-menu.collapse {
